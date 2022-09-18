@@ -101,7 +101,7 @@ Specifying multiple hypermater values in the *net_conf.txt* file will lead to mu
 
 ![](https://github.com/vasilislasdas/motionretargeting/blob/main/demo/demo_gif.gif)
 
-Download the full demo ![here](https://github.com/vasilislasdas/motionretargeting/blob/main/demo/demo.mp4)
+Download the full demo ![here](https://drive.google.com/file/d/1B5MjEHqhWHNlWZXJgdSG5jjYkDchAX5J/view?usp=sharing)
 
 
 
