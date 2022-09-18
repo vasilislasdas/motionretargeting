@@ -29,7 +29,15 @@ Download the training and the test and unzip them in the dataset folder.
 The structure of the dataset folder should look like this:
 ![alt text](https://github.com/vasilislasdas/motionretargeting/blob/main/images/dataset_image.png)
 
-The training/test folders contain the *bvh* files from various characters of the mixamo dataset. 
+The training/test folders contain the *bvh* files from various characters of the mixamo dataset.
+
+### Install required packages
+
+The python packages used are contained in the **requirements.txt** file. In order to install them:
+
+```
+pip install -r requirements.txt
+```
 
 ### Preprocessing
 
@@ -55,7 +63,7 @@ The above function performs the following steps:
 - Performs retargeting. 
 
 
-The retargeting artefacts are placed in the folder *evaluation*, which contains the files:
+The retargeting artefacts are placed in the folder *evaluation/results*, which contains the files:
 - Bvh file of the source motion: **original.bhv**.
 - Bvh file of the retargeting: **final.bvh**
 - Groundtruth bvh file: **groundtruth.bvh**
@@ -92,7 +100,7 @@ Specifying multiple hypermater values in the *net_conf.txt* file will lead to mu
 ## DEMO
 
 
-
+![alt text](https://github.com/vasilislasdas/motionretargeting/blob/main/images/demo.mp4)
 
 
 
