@@ -50,7 +50,12 @@ python train_final.py
 ```
 The training process will create with the train_wgan folder a *trials folder*, containing the results of each trial. A successful training will create 3 files as showin in the picture above:
 
-![alt text](https://github.com/vasilislasdas/motionretargeting/blob/main/images/training_results.png)
+![alt text](https://github.com/vasilislasdas/motionretargeting/blob/main/images/training_result.png)
+
+There are 3 artefacts that are being created for a specific configuration of hyperparameters:
+- The network configuration(same for a single set of hyperparameter values).
+- The weights of the retargeter network(**retargeter.zip**).
+- The losses during training, which can be used later for plotting.
 
 Specifying multiple hypermater values in the *net_conf.txt* file will lead to multiple folders created.
 
