@@ -40,23 +40,11 @@ In order to preprocess the dataset, do the following, from a python console, ass
 ```
 The above will create the file **normalized_dataset.txt**, which will be automatically placed in the train_wgan/ folder. Depending on your system, the preprocessing can take around 1-2 minutes. Make sure this file is correctly created. Otherwise, you can download a precreated file from [here](https://drive.google.com/file/d/1es64N10Kh6P78icbVJjxD0S-T_sgoKGV/view?usp=sharing), and again place it in the train_wgan/ folder.
 
-### Installing
+### Retargeting
 
-A step by step series of examples that tell you how to get a development
-environment running
+### Training 
 
-Say what the step will be
 
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
-
-## Running the tests
 
 
 
