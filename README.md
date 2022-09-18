@@ -85,13 +85,13 @@ The network architecture is based on the Wasserstein GAN. The generator(retarget
 cd train_wgan
 python train_final.py
 ```
-The training process will create a *trials folder* within the train_wgan folder , containing the results of each trial. A successful training will create 3 files as shown in the picture below:
+The training process will create a *trials folder* within the train_wgan folder, containing the results of each trial. A successful training will create 3 files as shown in the picture below:
 
 ![alt text](https://github.com/vasilislasdas/motionretargeting/blob/main/images/training_result.png)
 
 There are 3 artefacts that are being created:
-- The network configuration(same as the **net_conf.txt**  when a single set of hyperparameter values).
-- The weights of the retargeter network(**retargeter.zip**). This is the most important file. If you want to perform retargeting copy it to the evaluation folder.
+- The network configuration(same as the **net_conf.txt**  when a single set of hyperparameter values is used).
+- The weights of the trained retargeter network(**retargeter.zip**). This is the most important file. If you want to perform retargeting, copy it to the evaluation folder.
 - The losses during training, which can be used later for plotting.
 
 Specifying multiple hypermater values in the *net_conf.txt* file will lead to multiple folders created.
