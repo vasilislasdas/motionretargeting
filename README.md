@@ -18,6 +18,8 @@ Download the training and the test and unzip them in the dataset folder.
 - [Training set](https://drive.google.com/file/d/1UhXkFfOVaDUdpCmIGkScOoi1IG7c3olH/view?usp=sharing)
 - [Test set](https://drive.google.com/file/d/1nc4MRO-QTjqqr96vuhAr4P6HdZdBM3W6/view?usp=sharing)
 
+![alt text](https://github.com/vasilislasdas/motionretargeting/blob/main/images/dataset_image.png)
+
 ### Installing
 
 A step by step series of examples that tell you how to get a development
