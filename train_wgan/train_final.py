@@ -290,8 +290,8 @@ def train_mixamo(configuration):
 
 
     ###### create:dataset and dataloader for mixamo dataset
-    character_filter_list = [ 'BigVegas', 'Timmy_m', "Kaya", "Remy_m" ] # for speeding things up
-    # character_filter_list = None
+    # character_filter_list = [ 'BigVegas', 'Timmy_m', "Kaya", "Remy_m" ] # for speeding things up
+    character_filter_list = None
 
     # character_filter_list = None
     dataset = RetargetingDataset(dataset_file=dataset_file, filter_list=character_filter_list)
