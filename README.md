@@ -108,7 +108,7 @@ Download the full demo [here](https://drive.google.com/file/d/1B5MjEHqhWHNlWZXJg
 
 ## Authors
 
-  -**Vasilis Lasdas** 
+**Vasilis Lasdas** 
 
 
 ## License
