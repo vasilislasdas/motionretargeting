@@ -1,15 +1,15 @@
 # Motion Retargeting
 
-Performs motion retargeting between mocap characters. The characters can have the same number of joints(intra-structure or intra-class retargeting) or different number of joints(cross-structure retargeting). The deployed networks are based on the wasserstein-gan architecture, where both the encoder and the discriminator are built using transformers. The code has been tested on Ubuntu 20.04 LTS using python 3.8 and pytorch 1.9.0 with cuda 10.2.
+Performs motion retargeting between mocap characters from the Mixamo dataset. The characters can have the same number of joints(intra-structure or intra-class retargeting) or different number of joints(cross-structure retargeting). The code has been tested on Ubuntu 20.04 LTS using python 3.8 and pytorch 1.9.0 with cuda 10.2.
 
 
 ## Getting Started
 
 In the next sections you can find instructions on how to:
-- Download the training and the test set
-- Preprocess the training set as a preparation step for training 
-- Training the retargeter network
-- Retarget between various characters
+- Download the training and the test set.
+- Preprocess the training set as a preparation step for training.
+- Training the retargeter network.
+- Retarget between various characters.
 
 All the instructions are based using a linux console. Alternatively, you can add the whole folder/project using your favorite python IDE(e.g. pycharm), and perform the steps from within the IDE.
 
@@ -42,7 +42,20 @@ The above will create the file **normalized_dataset.txt**, which will be automat
 
 ### Retargeting
 
-### Training 
+### Training
+The network architecture is based on the Wasserstein GAN. The generator(retargeter) is an encoder-decoder architecture. The encoder is based on transformers, whereas the decoder is a plain FFN network(which is fixed). The discriminator is also based on transformers. The various hyperparameters of the network can be found on the **net_conf.txt** file located in the train_wgan folder. You can also add multiple values for the hyperparameters seperated using commas, which leads to multiple architectures. Training the network, suffices to(assuming your are in the root folder):
+```
+cd train_wgan
+python train_final.py
+```
+The training process will create with the train_wgan folder a *trials folder*, containing the results of each trial. A successful training will create 3 files as showin in the picture above:
+
+![alt text](https://github.com/vasilislasdas/motionretargeting/blob/main/images/training_results.png)
+
+Specifying multiple hypermater values in the *net_conf.txt* file will lead to multiple folders created.
+
+
+
 
 
 
