@@ -85,7 +85,7 @@ The network architecture is based on the Wasserstein GAN. The generator(retarget
 cd train_wgan
 python train_final.py
 ```
-The training process will create with the train_wgan folder a *trials folder*, containing the results of each trial. A successful training will create 3 files as shown in the picture below:
+The training process will create a *trials folder* within the train_wgan folder , containing the results of each trial. A successful training will create 3 files as shown in the picture below:
 
 ![alt text](https://github.com/vasilislasdas/motionretargeting/blob/main/images/training_result.png)
 
