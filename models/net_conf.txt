@@ -1,0 +1,15 @@
+# Configurable parameters: layers(gen+dis), heads(gen+dis), model_dim(gen+dis), learning rate(gen+dis), batch size. The rest stays the same.
+datasetfile=../utils/normalized_dataset.txt
+nr_layers_gen=4
+nr_heads_gen=8
+model_dim_gen=128
+lr_gen=0.001
+nr_layers_dis=4
+nr_heads_dis=8
+model_dim_dis=128
+lr_dis=0.0003
+epochs=150
+batch_size=20
+shuffle_data=True
+output_folder=./
+device=cuda

@@ -1,0 +1,1 @@
+All validators have 8 heads and 6 layers. What varies is the transformer internal dim: 64,96,128
