@@ -92,7 +92,7 @@ Specifying multiple hypermater values in the *net_conf.txt* file will lead to mu
 ## DEMO
 
 
-
+![alt text](https://github.com/vasilislasdas/motionretargeting/blob/main/images/demo.mp4)
 
 
 
