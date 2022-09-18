@@ -68,10 +68,10 @@ The retargeting artefacts are placed in the folder *evaluation/results*, which c
 - Bvh file of the retargeting: **final.bvh**
 - Groundtruth bvh file: **groundtruth.bvh**
 
-The results(bvh files) can be visualized using [Blender](https://www.blender.org/) or other similar applications. Multiple runs 
+The results(bvh files) can be visualized using [Blender](https://www.blender.org/) or other similar applications. Multiple runs overwrite the results.
 
 ### Note 1):
-Due to the randomness, the retargeting can be either *intra-structure or cross-structure*. For more fine-grained control, please chance the source character/motion - target character within the **retarget.py** file. 
+Due to the randomness, the retargeting can be either *intra-structure or cross-structure*. For more fine-grained control(intra or cross retargeting), please change/harcode the source character/motion-target character within the **retarget.py** file. 
 
 ### Note 2): 
 For beautiful rendering of the results, follow the instructions from [here](https://github.com/DeepMotionEditing/deep-motion-editing) (Rendering section).
