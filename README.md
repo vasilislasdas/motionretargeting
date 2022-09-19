@@ -54,7 +54,7 @@ Assuming you are in the root folder:
 
 ```
 cd evaluation/
-python retargeter.py
+python retarget.py
 ```
 The above function performs the following steps:
 - Selects a random source character.
