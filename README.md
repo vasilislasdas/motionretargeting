@@ -91,10 +91,19 @@ The training process will create a *trials folder* within the train_wgan folder,
 
 There are 3 artefacts that are being created:
 - The network configuration(same as the **net_conf.txt**  when a single set of hyperparameter values is used).
-- The weights of the trained retargeter network(**retargeter.zip**). This is the most important file. If you want to perform retargeting, copy it to the evaluation folder.
+- The weights of the trained retargeter network(**retargeter_final.zip**). This is the most important file. If you want to perform retargeting, copy it to the evaluation folder and rename it **retargeter.zip**
 - The losses during training, which can be used later for plotting.
 
 Specifying multiple hypermater values in the *net_conf.txt* file will lead to multiple folders created.
+
+### Plotting losses
+
+Copy-paste the file **all_losses.npz** that is generated when training the network, to the *evaluation/* folder. Then, assuming you are on the toort folder: 
+```
+cd evaluation
+python plot_experiments.py
+```
+There is already an existing losses file inside the evaluation folder for demonstration purposes.
 
 
 ## DEMO
