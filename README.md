@@ -98,7 +98,7 @@ Specifying multiple hypermater values in the *net_conf.txt* file will lead to mu
 
 ### Plotting losses
 
-Copy-paste the file **all_losses.npz** that is generated when training the network, to the *evaluation/* folder. Then, assuming you are on the toort folder: 
+Copy-paste the file **all_losses.npz** that is generated when training the network, to the *evaluation/* folder. Then, assuming you are on the root folder: 
 ```
 cd evaluation
 python plot_experiments.py
