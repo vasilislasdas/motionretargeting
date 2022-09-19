@@ -5,10 +5,10 @@ import os
 if __name__ == "__main__":
 
     # folder that contains results from training
-    folder = "/home/vlasdas/Desktop/thesis/makis_final_ee_loss_long/"
+    # folder = "/home/vlasdas/Desktop/thesis/makis_final_ee_loss_long/"
 
     # move to specified folder
-    os.chdir(folder)
+    # os.chdir(folder)
 
     # load all losses
     z = np.load("all_losses.npz")
@@ -49,23 +49,8 @@ if __name__ == "__main__":
 
     #plot discriminator loss
     plt.figure()
-    disc = disc[:1001] # hack
     plt.plot(disc)
     plt.title("Discriminator loss")
-    plt.xlabel("epochs")
-    plt.ylabel("loss")
-
-
-
-
-
-    # plot generator adversarial loss
-    plt.figure
-    tmp = sep[:, -1]
-    tmp = tmp[tmp!=0]
-    tmp= tmp[:501]
-    plt.plot(tmp)
-    plt.title("Generator adversarial loss")
     plt.xlabel("epochs")
     plt.ylabel("loss")
 
