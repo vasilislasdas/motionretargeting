@@ -120,8 +120,4 @@ Download the full demo [here](https://drive.google.com/file/d/1B5MjEHqhWHNlWZXJg
 **Vasilis Lasdas** 
 
 
-## License
-
-This project is licensed under the *DOWHATEVERYOUWANT* license.
-
 
