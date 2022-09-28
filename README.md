@@ -94,7 +94,7 @@ There are 3 artefacts that are being created:
 - The weights of the trained retargeter network(**retargeter_final.zip**). This is the most important file. If you want to perform retargeting, copy it to the evaluation folder and rename it **retargeter.zip**
 - The losses during training, which can be used later for plotting.
 
-Specifying multiple hypermater values in the *net_conf.txt* file will lead to multiple folders created.
+Specifying multiple hyperparameter values in the *net_conf.txt* file will lead to multiple folders created.
 
 ### Plotting losses
 
