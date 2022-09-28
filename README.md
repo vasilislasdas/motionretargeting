@@ -22,7 +22,7 @@ git clone https://github.com/vasilislasdas/motionretargeting
 cd motionretargeting/
 ```
 
-Download the training and the test and unzip them in the dataset folder.
+Download the training and the test datasets and unzip them in the dataset folder.
 - [Training set](https://drive.google.com/file/d/1UhXkFfOVaDUdpCmIGkScOoi1IG7c3olH/view?usp=sharing)
 - [Test set](https://drive.google.com/file/d/1nc4MRO-QTjqqr96vuhAr4P6HdZdBM3W6/view?usp=sharing)
 
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ### Preprocessing
 
-In order to preprocess the dataset, do the following, from a python console, assuming you are in the root folder of the repository:
+In order to preprocess the dataset, do the following, from a terminal, assuming you are in the root folder of the repository:
 ```
         cd utils/
         python preprocess.py
