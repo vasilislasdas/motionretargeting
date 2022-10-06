@@ -83,7 +83,7 @@ For beautiful rendering of the results, follow the instructions from [here](http
 The network architecture is based on the Wasserstein GAN. The generator(retargeter) is an encoder-decoder architecture. The encoder is based on transformers, whereas the decoder is a plain FFN network(which is fixed). The discriminator is also based on transformers. The various hyperparameters of the network can be found on the **net_conf.txt** file located in the train_wgan folder. You can also add multiple values for the hyperparameters seperated using commas, which leads to multiple architectures. Training the network, suffices to(assuming your are in the root folder):
 ```
 cd train_wgan
-python train_final.py
+python train.py
 ```
 The training process will create a *trials folder* within the train_wgan folder, containing the results of each trial. A successful training will create 3 files as shown in the picture below:
 
