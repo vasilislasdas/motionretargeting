@@ -1,48 +1,17 @@
- 
-/home/vlasdas/local/packages/python_envz/deep_learning/bin/python /home/vlasdas/Desktop/thesis/code/train_wgan_v2/test.py
-Source character+motion:('Vampire_m', 'Standing Torch Melee Attack 03.bvh'), Target character:Kaya
-Character filter_list:['Olivia_m']
-Loading trained model
-Fixing foot contact using IK...
-100%|██████████| 50/50 [00:01<00:00, 37.52it/s]
-Cross-class retargeting!
 
-there is a bug here when shifting the character down...
+# interesting motions(test set)
 
-
-
-Source character+motion:('Aj', 'Standing To Crouch.bvh'), Target character:Mousey_m
-Character filter_list:['Olivia_m']
-
-here also bug...
-
-
-
-# interesting type of motion
 Source character+motion:('SportyGranny', 'Stroke Nodding.bvh'), Target character:Mremireh_m
 
-
-
 Source character+motion:('Vampire_m', 'Laying Mild Cough.bvh'), Target character:Mremireh_m
-Character filter_list:['Olivia_m']
-
 
 
 Source character+motion:('SportyGranny', 'Standing Torch Jump Running.bvh'), Target character:Mousey_m
 
 
 
-BUGGGGGGGGGGGg
-Source character+motion:('Vampire_m', 'Sitting Yell.bvh'), Target character:Aj
-
-
-# good one from the original dataset
+# interesting motions(training set)
 Source character+motion:('BigVegas', 'Martelo 3.bvh'), Target character:Olivia_m
 
-
-
-# # good one from the original dataset
 Source character+motion:('BigVegas', 'Drop To Freehang.bvh'), Target character:Racer_m
 
-# bugggggggggggg
-Source character+motion:('Goblin_m', 'Dancing Running Man.bvh'), Target character:BigVegas
