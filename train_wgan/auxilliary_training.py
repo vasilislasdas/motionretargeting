@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import time
 from preprocess import *
-from train_final import *
+from train import *
 from fid import calculate_frechet_distance
 import numpy as np
 def frechet_distance( real, fake):
