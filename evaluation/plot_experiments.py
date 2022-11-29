@@ -21,14 +21,14 @@ if __name__ == "__main__":
 
     # index and value of minimum combined generator loss
     index = np.argmin( gen )
-    print(f"index:{index, gen[index]}")
+    #print(f"index:{index, gen[index]}")
     tmp = sep[:,:-1]
     tmp = np.array(tmp)
     tmp = np.sum(tmp, axis=1)
 
     # index of everything apart for gen_disc_loss
     index = np.argmin(tmp)
-    print(f"index:{index, tmp[index]}")
+    #print(f"index:{index, tmp[index]}")
 
     # plot fid score
     plt.plot(fid[:,0],fid[:,1])
