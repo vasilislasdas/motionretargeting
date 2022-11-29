@@ -15,7 +15,6 @@ from datasetRetargeting import RetargetingDataset
 from torch.utils.data import DataLoader
 from shutil import copyfile, copy2
 from preprocess import *
-from train_final import *
 from others.dmr.IK import fix_foot_contact
 from bvh_parser import BVH_file
 from bvh_writer import BVH_writer
